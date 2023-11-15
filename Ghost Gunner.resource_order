@@ -16,6 +16,14 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Walls","order":2,"path":"folders/Objects/Walls.yy",},
+    {"name":"Walls","order":1,"path":"folders/Sprites/Walls.yy",},
+    {"name":"Characters","order":2,"path":"folders/Sprites/Characters.yy",},
+    {"name":"Projectiles","order":3,"path":"folders/Objects/Projectiles.yy",},
+    {"name":"Projectiles","order":3,"path":"folders/Sprites/Projectiles.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"obj_test_wall","order":1,"path":"objects/obj_test_wall/obj_test_wall.yy",},
+    {"name":"obj_test_projectile","order":1,"path":"objects/obj_test_projectile/obj_test_projectile.yy",},
+  ],
 }

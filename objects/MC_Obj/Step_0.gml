@@ -1,4 +1,4 @@
-/// @description Player Movement
+ /// @description Player Movement
 
 //get inputs
 	var _rightkey = keyboard_check(vk_right) or keyboard_check(ord("D"));

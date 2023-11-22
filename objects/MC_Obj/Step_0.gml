@@ -32,16 +32,18 @@
 	y += yspeed;
 
 //Fire weapon
-	if _firekey {
-		var bullet_inst = instance_create_depth(x + 48, centery, depth - 100, obj_test_projectile);
+	if _firekey and (fireRate-- <= 0) {
+		var xp, yp;
+		xp = obj_parent_weapon.x + 28 * cos(degtorad(obj_parent_weapon.image_angle));
+		yp = obj_parent_weapon.y - 30 * sin(degtorad(obj_parent_weapon.image_angle));
+		
+		var bullet_inst = instance_create_depth(xp, yp, depth - 100, obj_test_projectile);
 	
 		with (bullet_inst) {
 			dir = other.aimdir;
 		}
+		fireRate = obj_parent_weapon.fireRate;
 	}
-
-
-
 
 
 
